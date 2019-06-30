@@ -1,0 +1,13 @@
+.done-steps .date {
+  font-weight: bold;
+}
+
+.done-steps .steps {
+  padding-left: 8rem;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.done-steps .steps .step {
+  text-decoration: line-through;
+}

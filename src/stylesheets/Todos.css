@@ -1,0 +1,34 @@
+.todos {
+  padding: 50px;
+}
+
+.todos .steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todos .back-button {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.todos .show-progress-button {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.todos .steps p {
+  cursor: default;
+  text-align: left;
+  background: #d0e80d;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.todos .steps p:hover {
+  background: #b4c713;
+}

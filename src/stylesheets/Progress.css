@@ -1,0 +1,9 @@
+.progress {
+  padding: 50px;
+}
+
+.progress .back-to-goal-button {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}

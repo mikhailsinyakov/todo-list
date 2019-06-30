@@ -1,0 +1,10 @@
+.calendar {
+  margin: 0.5rem;
+}
+
+.calendar .arrow-button {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}

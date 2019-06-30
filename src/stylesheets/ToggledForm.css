@@ -1,0 +1,35 @@
+form {
+  margin-top: 2rem;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: lightblue;
+  color: #2b3e2b;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background: #2b3e2b;
+  color: lightblue;
+}
+
+input {
+  width: 21rem;
+  outline: none;
+  padding: 0.2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+input.error {
+  color: red;
+}

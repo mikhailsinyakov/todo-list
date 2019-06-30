@@ -1,0 +1,18 @@
+.goals-list p {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background: #a6bfa6;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: default;
+}
+
+.goals-list h4 {
+  margin: 5rem;
+}
+
+.goals-list p:hover {
+  background: #b3b3d2;
+}

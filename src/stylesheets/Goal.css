@@ -1,0 +1,15 @@
+.goals-list p .delete-goal {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+}
+
+.goals-list p:hover .delete-goal {
+  display: inline;
+}
+
+.goals-list .delete-goal:hover {
+  cursor: pointer;
+  color: red;
+}

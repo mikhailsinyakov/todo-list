@@ -1,0 +1,36 @@
+.month {
+  position: relative;
+  margin: 1rem auto;
+  background: #bebef1;
+  border-radius: 0.5rem;
+}
+
+.month .day {
+  box-sizing: border-box;
+  position: absolute;
+  background: lightblue;
+  cursor: default;
+  border: 1px solid;
+}
+
+.month .day.cross {
+  display: inline-block;
+}
+
+.month .day.cross::before, .month .day.cross::after {
+  content: '';
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+
+.month .day.cross::before {
+  border-bottom: 2px solid green;
+  transform: skewY(-45deg);
+}
+
+.month .day.cross::after {
+  border-bottom: 2px solid green;
+  transform: skewY(45deg);
+}
